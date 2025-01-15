@@ -1,0 +1,102 @@
+name: education_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.4
+
+dependencies:
+  bloc: ^8.1.4
+  chewie: ^1.8.5
+  cloud_firestore: ^5.6.0
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  file_picker: ^8.1.4
+  firebase_auth: ^5.3.4
+  firebase_core: ^3.9.0
+  firebase_storage: ^12.3.7
+  # firebase_ui_auth: ^1.16.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  font_awesome_flutter: ^10.8.0
+  get_it: ^8.0.3
+  iconly: ^1.0.1
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  lottie: ^3.0.0
+  open_file: ^3.5.10
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  smooth_page_indicator: ^1.2.0+3
+  swipe_to: ^1.0.6
+  url_launcher: ^6.3.1
+  # video_thumbnail: ^0.5.3
+  uuid: ^4.5.1
+  youtube_metadata: ^1.0.1
+  
+
+dev_dependencies:
+
+  bloc_test: ^9.1.7
+  fake_cloud_firestore: ^3.1.0
+  firebase_auth_mocks: ^0.14.1
+  firebase_storage_mocks: ^0.7.0
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+  google_sign_in_mocks: ^0.3.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/vectors/
+    - assets/images/
+    - assets/lottie/
+    - assets/icons/
+
+  fonts:
+    - family: Aeonik
+      fonts:
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Bold.otf
+          weight: 700
+        - asset: assets/fonts/aeonik/AeonikTRIAL-BoldItalic.otf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Light.otf
+          weight: 300
+        - asset: assets/fonts/aeonik/AeonikTRIAL-LightItalic.otf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/aeonik/AeonikTRIAL-Regular.otf
+          weight: 400
+        - asset: assets/fonts/aeonik/AeonikTRIAL-RegularItalic.otf
+          style: italic
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
+# bloc,flutter_bloc,dartz,equatable,file_picker,font_awesome_flutter,get_it,iconly,image_picker,intl,lottie,open_file,path_provider,provider,shared_preferences,smooth_page_indicator,swipe_to,url_launcher,youtube_metadata,video_thumbnail,chewie
